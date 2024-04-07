@@ -1,0 +1,20 @@
+{
+    "name": "smart-php/hello-world",
+    "description": "Laravel Hello World Package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SmartPhp\\HelloWorld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shabeer Ali M",
+            "email": "shabeer.ali.m@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
